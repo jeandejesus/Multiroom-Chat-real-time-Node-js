@@ -7,13 +7,21 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jeandejesus/Multiroom-Chat-real-time-Node-js.git"
+    "type": "",
+    "url": ""
   },
   "author": "Jean",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jeandejesus/Multiroom-Chat-real-time-Node-js/issues"
   },
-  "homepage": "https://github.com/jeandejesus/Multiroom-Chat-real-time-Node-js#readme"
+  "homepage": "https://github.com/jeandejesus/Multiroom-Chat-real-time-Node-js#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.2",
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
+    "express-validator": "^2.20.8",
+    "mysql": "^2.11.1"
+  }
 }
